@@ -1,8 +1,8 @@
 from dotenv import load_dotenv
 from os import path, environ
 
-basedir = path.abspath(path.join(path.dirname(__file__), "../../"))
-load_dotenv(path.join(basedir, ".env"))
+# basedir = path.abspath(path.join(path.dirname(__file__), "../../"))
+# load_dotenv(path.join(basedir, ".env"))
 
 
 class Config:
